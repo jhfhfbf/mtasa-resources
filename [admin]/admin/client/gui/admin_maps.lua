@@ -46,7 +46,7 @@ function loadMaps(gamemodeMapTable, gamemode, map)
 				guiGridListSetItemText ( aTabMap.MapList, row, 2, gamemode.resname, false, false )
 				guiGridListSetItemText ( aTabMap.MapList, row, 3, gamemode.resname, false, false )
 			else
-				for id,map in ipairs (gamemode.maps) do
+				for id,map1212 in ipairs (gamemode.maps) do
 					local row = guiGridListAddRow ( aTabMap.MapList )
 					guiGridListSetItemText ( aTabMap.MapList, row, 1, map.name, false, false )
 					guiGridListSetItemText ( aTabMap.MapList, row, 2, map.resname, false, false )
